@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+body.dark {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+body.matrix {
+  background-color: #000;
+  color: #0f0;
+}
+
+#wallet-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.wallet {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+.dark button {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.dark button:hover {
+  background-color: #ccc;
+}
+
+.matrix button {
+  background-color: #0f0;
+  color: #000;
+}
+
+.matrix button:hover {
+  background-color: #0f0;
+  color: #333;
+}
